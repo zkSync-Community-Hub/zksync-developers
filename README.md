@@ -16,4 +16,4 @@ The core values for the zkSync community are resilience, subtraction, and inclus
     1. Mainnet
 1. Support
 1. Brand Assets
-1. Goerli L1 testnet faucets
+1. Testnet Faucets
