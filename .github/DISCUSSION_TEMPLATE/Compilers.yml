@@ -24,7 +24,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Check first!
+        ## Check the docs!
         Have you check these sections of the docs?
         - Info about [zksolc](https://era.zksync.io/docs/api/compiler-toolchain/solidity.html)
         - Info about [zkvyper](https://era.zksync.io/docs/api/compiler-toolchain/vyper.html)
+        - [Configure hardhat-zksolc](https://era.zksync.io/docs/api/hardhat/hardhat-zksync-solc.html)
+        - [Configure hardhat-zkvyper](https://era.zksync.io/docs/api/hardhat/hardhat-zksync-vyper.html)
