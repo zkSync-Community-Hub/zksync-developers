@@ -1,5 +1,5 @@
 title: "[Compilers] "
-labels: ["Support","Compilers"]
+labels: ["Support", "Compilers"]
 body:
   - type: checkboxes
     attributes:
@@ -8,14 +8,14 @@ body:
         - label: zksolc
         - label: zkvyper
   - type: input
-    id: has-id
+    id: version
     attributes:
       label: Which version of Solidity or Vyper?
       description: The Solidity or Vyper version from your config file
     validations:
       required: true
-        - type: input
-    id: has-id
+  - type: input
+    id: zkversion
     attributes:
       label: zksolc/zkvyper version?
       description: The zksolc/zkvyper version from your config file
