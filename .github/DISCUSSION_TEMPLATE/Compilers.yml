@@ -1,0 +1,30 @@
+title: "[Compilers] "
+labels: ["Support","Compilers"]
+body:
+  - type: checkboxes
+    attributes:
+      label: Which compiler are you using?
+      options:
+        - label: zksolc
+        - label: zkvyper
+  - type: input
+    id: has-id
+    attributes:
+      label: Which version of Solidity or Vyper?
+      description: The Solidity or Vyper version from your config file
+    validations:
+      required: true
+        - type: input
+    id: has-id
+    attributes:
+      label: zksolc/zkvyper version?
+      description: The zksolc/zkvyper version from your config file
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Check first!
+        Have you check these sections of the docs?
+        - Info about [zksolc](https://era.zksync.io/docs/api/compiler-toolchain/solidity.html)
+        - Info about [zkvyper](https://era.zksync.io/docs/api/compiler-toolchain/vyper.html)
