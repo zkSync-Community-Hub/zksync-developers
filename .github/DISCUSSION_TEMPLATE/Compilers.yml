@@ -30,3 +30,15 @@ body:
         - [Compiler zkvyper](https://era.zksync.io/docs/api/compiler-toolchain/vyper.html)
         - [Configure hardhat-zksolc](https://era.zksync.io/docs/api/hardhat/hardhat-zksync-solc.html)
         - [Configure hardhat-zkvyper](https://era.zksync.io/docs/api/hardhat/hardhat-zksync-vyper.html)
+- type: textarea
+    id: issue
+    attributes:
+      label: Explain the issue
+      value: |
+        1.
+        2.
+        3.
+        ...
+      render: bash
+    validations:
+      required: true
