@@ -1,55 +1,96 @@
-title: "[General] "
-labels: ["General Introduction"]
+title: "[General] <Title>"
+labels: ["General"]
 body:
   - type: markdown
     attributes:
       value: |
-        This is text that will show up in the template!
-  - type: textarea
-    id: improvements
-    attributes:
-      label: Top 3 improvements
-      description: "What are the top 3 improvements we could make to this project?"
-      value: |
-        1.
-        2.
-        3.
-        ...
-      render: bash
-    validations:
-      required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## Markdown header
-        And some more markdown
-  - type: input
-    id: has-id
-    attributes:
-      label: Suggestions
-      description: A description about suggestions to help you
-    validations:
-      required: true
+        ## Check the docs!
+        Before proceeding, please check these links for contract verification help:
+         - [Differences from Ethereum](https://era.zksync.io/docs/dev/building-on-zksync/contracts/differences-with-ethereum.html)
+         - [Fee mechanism](https://era.zksync.io/docs/dev/developer-guides/transactions/fee-model.html)
+         - [Tutorials](https://era.zksync.io/docs/dev/tutorials)
+         - [Changelog](https://era.zksync.io/docs/dev/troubleshooting/changelog.html)
+         - [Important links](https://era.zksync.io/docs/dev/troubleshooting/important-links.html)
+
   - type: dropdown
-    id: download
+    id: environment
     attributes:
-      label: Which area of this project could be most improved?
+      label: Environment
       options:
-        - Documentation
-        - Pull request review time
-        - Bug fix time
-        - Release cadence
+        - 
+        - Testnet
+        - Mainnet
     validations:
       required: true
-  - type: checkboxes
+      
+  - type: textarea
+    id: functionality-description
     attributes:
-      label: Check that box!
-      options:
-        - label: This one!
-          required: true
-        - label: I won't stop you if you check this one, too
-  - type: markdown
+      label: Provide a brief description of the functionality you're trying to implement.
+    validations:
+      required: true
+      
+  - type: textarea
+    id: specific-issue
     attributes:
-      value: |
-        ### The thrilling conclusion
-        _to our template_
+      label: What is the specific issue or error you're encountering?
+    validations:
+      required: true
+
+  - type: textarea
+    id: error-messages
+    attributes:
+      label: Can you share the error messages or logs you're receiving, if any?
+    validations:
+      required: true
+
+  - type: textarea
+    id: recent-changes
+    attributes:
+      label: Have you made any recent changes to the contract before encountering this issue?
+    validations:
+      required: true
+
+  - type: textarea
+    id: external-libraries
+    attributes:
+      label: Are there any external libraries or contracts that your contract interacts with?
+    validations:
+      required: true
+
+  - type: textarea
+    id: contract-code
+    attributes:
+      label: Can you provide the relevant portions of your contract code where the issue is occurring?
+    validations:
+      required: true
+
+  - type: textarea
+    id: isolation-results
+    attributes:
+      label: Have you tried to isolate the problem, and if so, what were the results?
+    validations:
+      required: true
+
+  - type: textarea
+    id: resolution-steps
+    attributes:
+      label: What steps have you already taken to try to resolve the issue?
+    validations:
+      required: true
+
+  - type: input
+    id: repo-link
+    attributes:
+      label: Repo Link (Optional)
+      description: If applicable, please provide a link to a repo
+    validations:
+      required: false
+      
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional Details
+      description: If applicable, please provide any additional details
+    validations:
+      required: false
