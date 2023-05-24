@@ -1,0 +1,86 @@
+title: "[Deployment] <Title>"
+labels: ["Deployment"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Check the docs!
+        Before proceeding, please check these links for contract verification help:
+         - [Verifying contracts using the zkSync Era block explorer](https://era.zksync.io/docs/api/tools/block-explorer/contract-verification.html#verifying-contracts-using-the-zksync-era-block-explorer)
+         - [Verifying contracts using the hardhat-zksync-verify plugin](https://era.zksync.io/docs/api/hardhat/hardhat-zksync-verify.html)
+ 
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options:
+        - 
+        - Testnet
+        - Mainnet
+    validations:
+      required: true
+      
+  - type: input
+    id: zksolc-version
+    attributes:
+      label: zkSolc Version
+    validations:
+      required: true
+
+  - type: input
+    id: zksync-web3-version
+    attributes:
+      label: zksync-web3 Version
+    validations:
+      required: true
+  
+  - type: textarea
+    id: hardhat-config
+    attributes:
+      label: Hardhat.config.ts
+    validations:
+      required: true
+
+  - type: textarea
+    id: deployment-script
+    attributes:
+      label: Deployment Script (WITHOUT PRIVATE KEY)
+    validations:
+      required: true
+  
+  - type: textarea
+    id: contract-code
+    attributes:
+      label: Contract Code
+    validations:
+      required: true
+  
+  - type: textarea
+    id: other-evms
+    attributes:
+      label: Does this work on other EVMs? (If yes, please list at least 1 of them)
+    validations:
+      required: true
+  
+  - type: textarea
+    id: contract-description
+    attributes:
+      label: Description of What Your Contract Does
+    validations:
+      required: true
+      
+   - type: input
+    id: repo-link
+    attributes:
+      label: Repo Link (Optional)
+      description: If applicable, please provide a link to a repo
+    validations:
+      required: false
+      
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional Details
+      description: If applicable, please provide any additional details
+    validations:
+      required: false
