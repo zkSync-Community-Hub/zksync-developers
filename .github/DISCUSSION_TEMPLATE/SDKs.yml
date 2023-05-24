@@ -13,7 +13,8 @@ body:
 
   - type: markdown
     attributes:
-      label: Acknowledgement
+      options:
+        - label: Acknowledgement
       value: |
         We are currently updating the Python and Java SDKs. You may encounter errors when trying things out. Apologies for the inconvenience, we will update the documentation in due course.
 
