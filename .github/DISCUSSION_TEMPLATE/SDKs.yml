@@ -20,7 +20,9 @@ body:
   - type: checkboxes
     id: sdk-updates-acknowledgement
     attributes:
-        - label: I understand.
+      label: Acknowledgement
+      options:
+        - label: I understand
     validations:
       required: true
   
