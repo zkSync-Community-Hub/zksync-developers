@@ -4,10 +4,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Before proceeding, please check these links for SDK help:
-        - [TypeScript SDK](https://era.zksync.io/docs/api/js/)
-        - [Python SDK](https://era.zksync.io/docs/api/python/getting-started.html)
-        - [Java SDK](https://era.zksync.io/docs/api/java/getting-started.html)
+        ## Check the docs!
+        Before proceeding, please check these links for SDK help:
+         - [TypeScript SDK](https://era.zksync.io/docs/api/js/)
+         - [Python SDK](https://era.zksync.io/docs/api/python/getting-started.html)
+         - [Java SDK](https://era.zksync.io/docs/api/java/getting-started.html)
         
   - type: dropdown
     id: environment
