@@ -69,7 +69,7 @@ body:
     validations:
       required: true
       
-   - type: input
+  - type: input
     id: repo-link
     attributes:
       label: Repo Link (Optional)
