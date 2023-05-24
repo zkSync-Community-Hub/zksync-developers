@@ -1,7 +1,7 @@
 title: "Question Title"
 labels: ["SDK"]
 body:
-  - type: checkboxes
+  - type: dropdown
     id: environment
     attributes:
       label: Environment
@@ -11,12 +11,17 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
-    id: sdk-updates
+  - - type: markdown
     attributes:
-      label: SDK Updates
+      value: |
+        We are currently updating the Python and Java SDKs. You may encounter errors when trying things out. Apologies for the inconvenience, we will update the documentation in due course.
+
+  - type: checkboxes
+    id: sdk-updates-acknowledgement
+    attributes:
+      label: Acknowledgement
       options:
-        - label: We are currently updating the Python and Java SDKs. You may encounter errors when trying things out. Apologies for the inconvenience, we will update the documentation in due course.
+        - label: I understand.
     validations:
       required: true
   
