@@ -13,7 +13,6 @@ body:
 
   - type: markdown
     attributes:
-      lable: Acknowledgement
       value: |
         ## Acknowledgement
         We are currently updating the Python and Java SDKs. You may encounter errors when trying things out. Apologies for the inconvenience, we will update the documentation in due course.
@@ -21,7 +20,6 @@ body:
   - type: checkboxes
     id: sdk-updates-acknowledgement
     attributes:
-      options:
         - label: I understand.
     validations:
       required: true
