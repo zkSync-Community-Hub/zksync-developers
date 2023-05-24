@@ -6,16 +6,15 @@ body:
     attributes:
       label: Environment
       options:
-        - label: Testnet
-        - label: Mainnet
+        - Testnet
+        - Mainnet
     validations:
       required: true
 
   - type: markdown
     attributes:
-      options:
-        - label: Acknowledgement
       value: |
+        ## Acknowledgement
         We are currently updating the Python and Java SDKs. You may encounter errors when trying things out. Apologies for the inconvenience, we will update the documentation in due course.
 
   - type: checkboxes
