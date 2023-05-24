@@ -14,13 +14,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        #### Acknowledgement
+        #### ⚠️ Note
         We are currently updating the Python and Java SDKs. You may encounter errors when trying things out. Apologies for the inconvenience, we will update the documentation in due course.
 
   - type: checkboxes
     id: sdk-updates-acknowledgement
     attributes:
-      label: 
+      label: Acknowledgement
       options:
         - label: I understand that issues are expected with the Python and Java SDK as they are being updated.
     validations:
