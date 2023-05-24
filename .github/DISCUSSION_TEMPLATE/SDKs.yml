@@ -6,6 +6,7 @@ body:
     attributes:
       label: Environment
       options:
+        - 
         - Testnet
         - Mainnet
     validations:
