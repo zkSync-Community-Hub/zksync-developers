@@ -4,11 +4,11 @@ body:
   - type: dropdown
     id: environment
     attributes:
-      label: Environment
+      label: Network
       options:
         - 
-        - Testnet
-        - Mainnet
+        - zkSync Lite
+        - zkSync Era
         - Both
     validations:
       required: true
