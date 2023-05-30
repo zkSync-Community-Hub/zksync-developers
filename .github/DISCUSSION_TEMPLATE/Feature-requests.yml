@@ -9,6 +9,7 @@ body:
         - 
         - Testnet
         - Mainnet
+        - Both
     validations:
       required: true
       
