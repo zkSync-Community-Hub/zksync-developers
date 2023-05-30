@@ -1,6 +1,6 @@
 title: "[General] <Title>"
 labels: ["General"]
-dbody:
+body:
   - type: markdown
     attributes:
       value: |
