@@ -1,6 +1,6 @@
 title: "[Deployment] <Title>"
 labels: ["Deployment"]
-dbody:
+body:
   - type: markdown
     attributes:
       value: |
