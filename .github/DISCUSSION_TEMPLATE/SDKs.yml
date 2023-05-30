@@ -1,6 +1,6 @@
 title: "[SDK] <Title>"
 labels: ["SDK"]
-dbody:
+body:
   - type: markdown
     attributes:
       value: |
