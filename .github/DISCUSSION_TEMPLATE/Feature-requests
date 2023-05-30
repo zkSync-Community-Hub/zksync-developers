@@ -1,0 +1,35 @@
+title: "[Feature Request] <Title>"
+labels: ["Feature-request"]
+body:
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options:
+        - 
+        - Testnet
+        - Mainnet
+    validations:
+      required: true
+      
+  - type: textarea
+    id: functionality-description
+    attributes:
+      label: Provide a brief description of the feature you would like to see implemented.
+    validations:
+      required: true
+      
+  - type: textarea
+    id: specific-issue
+    attributes:
+      label: Who does this feature request benefit the most (users, developers, protocol, etc.)?
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional Details
+      description: If applicable, please provide any additional details
+    validations:
+      required: false
