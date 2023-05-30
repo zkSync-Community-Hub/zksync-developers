@@ -1,6 +1,6 @@
-title: "[Compilers] "
-labels: ["Support", "Compilers"]
-body:
+title: "[Compilers]<Title>"
+labels: ["Compilers"]
+dbody:
   - type: checkboxes
     attributes:
       label: Which compiler are you using?
