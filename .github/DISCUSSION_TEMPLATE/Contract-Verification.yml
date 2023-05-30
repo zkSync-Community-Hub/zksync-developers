@@ -1,6 +1,6 @@
 title: "[Contract Verification] <Title>"
 labels: ["Contract Verification"]
-dbody:
+body:
   - type: markdown
     attributes:
       value: |
