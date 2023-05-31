@@ -1,5 +1,5 @@
 title: "[Deployment] <Title>"
-labels: ["Deployment"]
+labels: ["deployment"]
 body:
   - type: markdown
     attributes:
