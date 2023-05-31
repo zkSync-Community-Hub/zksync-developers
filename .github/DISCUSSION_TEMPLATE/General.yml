@@ -1,5 +1,5 @@
 title: "[General] <Title>"
-labels: ["General"]
+labels: ["general"]
 body:
   - type: markdown
     attributes:
