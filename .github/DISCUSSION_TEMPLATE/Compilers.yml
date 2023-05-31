@@ -1,5 +1,5 @@
 title: "[Compilers]<Title>"
-labels: ["Compilers"]
+labels: ["compiler"]
 body:
   - type: markdown
     attributes:
