@@ -33,7 +33,7 @@ body:
     attributes:
       label: Acknowledgement
       options:
-        - label: I understand that issues are expected with the Python and Java SDK as they are being updated.
+        - label: I understand that issues are expected with the Java SDK as they are being updated.
     validations:
       required: true
         
