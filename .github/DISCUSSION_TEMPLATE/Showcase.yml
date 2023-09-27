@@ -1,0 +1,65 @@
+title: "[Show and Tell] <Project Title>"
+labels: ["show-and-tell"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Show and Tell Guidelines
+        Before proceeding, please ensure you've filled out all the required fields for showcasing your pet project. This helps the community to understand and appreciate your work better.
+
+  - type: input
+    id: project-name
+    attributes:
+      label: Project Name
+    validations:
+      required: true
+
+  - type: input
+    id: repo-link
+    attributes:
+      label: Repo Link
+    validations:
+      required: false
+
+  - type: input
+    id: demo-link
+    attributes:
+      label: Demo Link (Optional)
+    validations:
+      required: false
+
+  - type: input
+    id: technologies-used
+    attributes:
+      label: Technologies Used
+    validations:
+      required: true
+
+  - type: textarea
+    id: project-description
+    attributes:
+      label: Describe your project. What does it do? Why did you create it? Any interesting challenges you faced?
+    validations:
+      required: true
+
+  - type: textarea
+    id: feedback-needed
+    attributes:
+      label: What specific feedback are you looking for?
+    validations:
+      required: true
+
+  - type: textarea
+    id: community-help
+    attributes:
+      label: How can the community help or contribute to your project?
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information (Optional)
+      description: Any other information or details you'd like to share about your project.
+    validations:
+      required: false
