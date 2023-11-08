@@ -1,4 +1,4 @@
-title: "Issue: [ZK Stack] - <Brief Description of the Problem or Feature>"
+title: "[ZK Stack] - <Brief Description of the Problem or Feature>"
 labels: ["zk stack"]
 body:
   - type: checkboxes
@@ -7,13 +7,15 @@ body:
       label: Module Affected
       description: Please select the module this issue is related to.
       options:
-        - label: zkEVM
-        - label: Smart Contracts
-        - label: Server
-        - label: Fee Withdrawer
-        - label: Portal - Wallet + Bridge
-        - label: Block Explorer
-        - label: Other (Please specify below)
+        - label: System contracts (era-system-contracts)
+        - label: Smart contracts (era-contracts)
+        - label: zkEVM (era-zk_evm)
+        - label: Server (zksync-era)
+        - label: Prover (era-boojum)
+        - label: Fee withdrawer (era-fee-withdrawer)
+        - label: Block Explorer (clock-explorer)
+        - label: Portal - Wallet + Bridge (dapp-portal)
+        - label: Other (please specify below)
     validations:
       required: true
   
