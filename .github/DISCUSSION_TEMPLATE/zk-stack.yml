@@ -1,5 +1,5 @@
 title: "[ZK Stack] - <Brief Description of the Problem or Feature>"
-labels: ["zk stack"]
+labels: ["zk-stack"]
 body:
   - type: checkboxes
     id: zkstack-module
