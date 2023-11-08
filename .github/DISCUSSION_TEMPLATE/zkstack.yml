@@ -22,7 +22,7 @@ body:
     attributes:
       label: Rust Version
       description: Enter the Rust version you are using (e.g., `rustup show` output).
-      placeholder: "1.52.0"
+      placeholder: "1.75.0"
     validations:
       required: true
 
