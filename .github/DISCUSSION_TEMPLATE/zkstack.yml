@@ -1,0 +1,94 @@
+title: "Issue: [ZK Stack] - <Brief Description of the Problem or Feature>"
+labels: ["zk stack"]
+body:
+  - type: checkboxes
+    id: zkstack-module
+    attributes:
+      label: Module Affected
+      description: Please select the module this issue is related to.
+      options:
+        - label: zkEVM
+        - label: Smart Contracts
+        - label: Server
+        - label: Fee Withdrawer
+        - label: Portal - Wallet + Bridge
+        - label: Block Explorer
+        - label: Other (Please specify below)
+    validations:
+      required: true
+  
+  - type: input
+    id: rust-version
+    attributes:
+      label: Rust Version
+      description: Enter the Rust version you are using (e.g., `rustup show` output).
+      placeholder: "1.52.0"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: environment
+    attributes:
+      label: Operating System
+      options:
+        - label: Ubuntu
+        - label: MacOS
+        - label: Windows
+        - label: Other (Please specify below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Issue Description
+      description: Provide a detailed description of the issue. Include steps to reproduce if applicable.
+      placeholder: "When I do..., I expect... but..."
+    validations:
+      required: true
+  
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: Describe what you expected to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-behavior
+    attributes:
+      label: Current Behavior
+      description: Describe what actually happened.
+    validations:
+      required: true
+
+  - type: input
+    id: repo-link
+    attributes:
+      label: Repository Link (if applicable)
+      description: Provide a link to the repository or specific code in question.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-details
+    attributes:
+      label: Additional Details
+      description: Include any additional details, like error logs or screenshots.
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: "Please attach any relevant files or screenshots that could help us to understand the problem better."
+
+  - type: checkboxes
+    id: prior-research
+    attributes:
+      label: Prior Research
+      description: Did you search for existing issues before submitting this one?
+      options:
+        - label: Yes, I searched for similar issues and did not find any matching ones.
+    validations:
+      required: true
