@@ -39,6 +39,7 @@ body:
     id: hardhat-config
     attributes:
       label: Hardhat.config.ts
+    render: javascript
     validations:
       required: true
 
@@ -46,6 +47,7 @@ body:
     id: deployment-script
     attributes:
       label: Deployment Script (WITHOUT PRIVATE KEY)
+    render: javascript
     validations:
       required: true
   
@@ -53,6 +55,7 @@ body:
     id: contract-code
     attributes:
       label: Contract Code
+    render: solidity
     validations:
       required: true
   
