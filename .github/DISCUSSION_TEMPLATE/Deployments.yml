@@ -50,6 +50,14 @@ body:
       render: javascript
     validations:
       required: true
+
+  - type: textarea
+    id: package-json
+    attributes:
+      label: Package.json
+      render: json
+    validations:
+      required: true
   
   - type: textarea
     id: contract-code
