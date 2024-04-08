@@ -1,0 +1,19 @@
+name: Notify Discord on Labeled Discussion
+
+on:
+  discussion:
+    types: [created]
+
+jobs:
+  notify-discord:
+    runs-on: ubuntu-latest
+    if: contains(github.event.discussion.labels.*.name, 'show-and-tell')
+    steps:
+    - name: Send Notification to Discord
+      run: |
+        curl -X POST -H "Content-Type: application/json" \
+        -d "{\"content\": \"A new labeled discussion has been created: ${GITHUB_EVENT_PATH}\"}" \
+        ${{ secrets.DISCORD_WEBHOOK_URL }}
+      env:
+        DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        GITHUB_EVENT_DISCUSSION_URL: ${{ github.event.discussion.html_url }}
