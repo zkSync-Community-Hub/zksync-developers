@@ -9,6 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     if: contains(github.event.discussion.labels.*.name, 'show-and-tell')
     steps:
+      - name: Dump GitHub event payload
+  run: echo "${{ toJson(github.event) }}"
+
       - name: Send Notification to Discord
         run: |
           curl -X POST -H "Content-Type: application/json" \
