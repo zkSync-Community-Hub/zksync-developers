@@ -12,7 +12,7 @@ jobs:
       - name: Send Notification to Discord
         run: |
           curl -X POST -H "Content-Type: application/json" \
-          -d "{\"content\": \"A new labeled discussion has been created: ${{ github.event.discussion.html_url }}\"}" \
+          -d "{\"content\": \"A new Show and Tell discussion has been created: ${{ github.event.discussion.html_url }}\"}" \
           ${{ secrets.DISCORD_WEBHOOK_URL }}
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
