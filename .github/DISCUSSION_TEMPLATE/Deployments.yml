@@ -29,9 +29,9 @@ body:
       required: true
 
   - type: input
-    id: zksync-web3-version
+    id: zksync-ethers-version
     attributes:
-      label: zksync-web3 Version
+      label: zksync-ethers Version
     validations:
       required: true
   
