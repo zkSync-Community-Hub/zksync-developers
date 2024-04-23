@@ -1,5 +1,5 @@
 title: "[Feature Request] <Title>"
-labels: ["feature request"]
+labels: ["feature-request"]
 body:
   - type: dropdown
     id: environment
