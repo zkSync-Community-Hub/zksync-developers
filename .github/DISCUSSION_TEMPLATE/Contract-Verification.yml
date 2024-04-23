@@ -1,5 +1,5 @@
 title: "[Contract Verification] <Title>"
-labels: ["contract verification"]
+labels: ["contract-verification"]
 body:
   - type: markdown
     attributes:
