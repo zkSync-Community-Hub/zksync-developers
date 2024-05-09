@@ -6,10 +6,10 @@ body:
       value: |
         ## Check the docs!
         Have you check these sections of the docs?
-        - [Compiler zksolc](https://era.zksync.io/docs/api/compiler-toolchain/solidity.html)
-        - [Compiler zkvyper](https://era.zksync.io/docs/api/compiler-toolchain/vyper.html)
-        - [Configure hardhat-zksolc](https://era.zksync.io/docs/api/hardhat/hardhat-zksync-solc.html)
-        - [Configure hardhat-zkvyper](https://era.zksync.io/docs/api/hardhat/hardhat-zksync-vyper.html)
+        - [Compiler zksolc](https://docs.zksync.io/zk-stack/components/compiler/toolchain/solidity.html)
+        - [Compiler zkvyper](https://docs.zksync.io/zk-stack/components/compiler/toolchain/vyper.html)
+        - [Configure hardhat-zksolc](https://docs.zksync.io/build/tooling/hardhat/hardhat-zksync-solc.html)
+        - [Configure hardhat-zkvyper](https://docs.zksync.io/build/tooling/hardhat/hardhat-zksync-vyper.html)
   - type: checkboxes
     attributes:
       label: Which compiler are you using?
@@ -43,6 +43,6 @@ body:
     id: repo
     attributes:
       label: Link to your repo?
-      description: Link to the repo with the contracts and config file
+      description: Though not mandatory, sharing a repository link with a README that details how to replicate the issue and the errors you're encountering will significantly expedite our support process.
     validations:
       required: false

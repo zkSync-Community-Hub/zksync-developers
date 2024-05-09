@@ -47,14 +47,14 @@ body:
     attributes:
       label: What specific feedback are you looking for?
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: community-help
     attributes:
       label: How can the community help or contribute to your project?
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: additional-info
