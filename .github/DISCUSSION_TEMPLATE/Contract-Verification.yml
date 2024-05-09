@@ -94,7 +94,7 @@ body:
     id: repo-link
     attributes:
       label: Repo Link (Optional)
-      description: If applicable, please provide a link to a repo
+      description: Though not mandatory, sharing a repository link with a README that details how to replicate the issue and the errors you're encountering will significantly expedite our support process.
     validations:
       required: false
       
