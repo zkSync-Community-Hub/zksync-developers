@@ -10,7 +10,24 @@ body:
          - [Python SDK](https://era.zksync.io/docs/api/python)
          - [Java SDK](https://era.zksync.io/docs/api/java)
          - [Go SDK](https://era.zksync.io/docs/api/go)
-        
+         - [Swift SDK](https://docs.zksync.io/build/sdks/swift/getting-started.html)
+         - [Rust SDK](https://docs.zksync.io/build/sdks/rust/getting-started.html)
+
+    - type: dropdown
+    id: type
+    attributes:
+      label: Select the SDK
+      options:
+        - 
+        - JavaScript
+        - Python
+        - Java
+        - Go
+        - Swift
+        - Rust
+    validations:
+      required: true
+
   - type: dropdown
     id: environment
     attributes:
@@ -19,21 +36,6 @@ body:
         - 
         - Testnet
         - Mainnet
-    validations:
-      required: true
-
-  - type: markdown
-    attributes:
-      value: |
-        #### ⚠️ Note
-        We are currently updating the Go SDK. You may encounter errors when trying things out. Apologies for the inconvenience, we will update the documentation in due course.
-
-  - type: checkboxes
-    id: sdk-updates-acknowledgement
-    attributes:
-      label: Acknowledgement
-      options:
-        - label: I understand that issues are expected with the Go SDK as they are being updated.
     validations:
       required: true
         

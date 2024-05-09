@@ -8,6 +8,7 @@ body:
         Before proceeding, please check these links for contract verification help:
          - [Verifying contracts using the zkSync Era block explorer](https://era.zksync.io/docs/api/tools/block-explorer/contract-verification.html#verifying-contracts-using-the-zksync-era-block-explorer)
          - [Verifying contracts using the hardhat-zksync-verify plugin](https://era.zksync.io/docs/api/hardhat/hardhat-zksync-verify.html)
+         - [Verifying contracts using the hardhat-zksync-verify-vyper plugin](https://docs.zksync.io/build/tooling/hardhat/hardhat-zksync-verify-vyper.html)
   - type: dropdown
     id: environment
     attributes:
@@ -18,7 +19,18 @@ body:
         - Mainnet
     validations:
       required: true
-      
+
+  - type: dropdown
+    id: version
+    attributes:
+      label: Block Explorer
+      options:
+        - 
+        - https://explorer.zksync.io/
+        - https://era.zksync.network/
+    validations:
+      required: true   
+
   - type: checkboxes
     id: issue-type
     attributes:
