@@ -1,0 +1,62 @@
+title: "[Dev Tools] <Title>"
+labels: ["devtools"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Check the docs!
+        Before proceeding, please check these links for help with ZKsync Dev Tools:
+         - [ZKsync CLI](https://docs.zksync.io/build/zksync-cli)
+         - [Block Explorers](https://docs.zksync.io/build/tooling/zksync-block-explorers)
+         - [Hardhat Plugins](https://docs.zksync.io/build/tooling/hardhat/getting-started)
+         - [Foundry](https://docs.zksync.io/build/tooling/foundry/overview)
+         - [Local Node](https://docs.zksync.io/build/test-and-debug/dockerized-l1-l2-nodes)
+         - [In-Memory Node](https://docs.zksync.io/build/test-and-debug/in-memory-node)
+
+  - type: dropdown
+    id: devtool-type
+    attributes:
+      label: Select the Dev Tool you are using
+      options:
+        - ZKsync CLI
+        - Block Explorers
+        - Hardhat Plugins
+        - Foundry
+        - Local Node
+        - In-Memory Node
+        - IDE
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options:
+        - Testnet
+        - Mainnet
+    validations:
+      required: true
+      
+  - type: textarea
+    id: functionality-description
+    attributes:
+      label: Provide a brief description of the functionality you're trying to implement and the issue you are running into.
+    validations:
+      required: true
+
+  - type: input
+    id: repo-link
+    attributes:
+      label: Repo Link (Optional)
+      description: Though not mandatory, sharing a repository link with a README that details how to replicate the issue and the errors you're encountering will significantly expedite our support process.
+    validations:
+      required: false
+      
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional Details
+      description: If applicable, please provide any additional details
+    validations:
+      required: false
