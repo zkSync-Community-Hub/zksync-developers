@@ -18,6 +18,7 @@ body:
     attributes:
       label: Select the Dev Tool you are using
       options:
+        - 
         - ZKsync CLI
         - Block Explorers
         - Hardhat Plugins
@@ -33,6 +34,7 @@ body:
     attributes:
       label: Environment
       options:
+        - 
         - Testnet
         - Mainnet
     validations:
