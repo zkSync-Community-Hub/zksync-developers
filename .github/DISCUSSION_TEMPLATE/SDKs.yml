@@ -5,13 +5,8 @@ body:
     attributes:
       value: |
         ## Check the docs!
-        Before proceeding, please check these links for SDK help:
-         - [JavaScript SDK](https://era.zksync.io/docs/api/js)
-         - [Python SDK](https://era.zksync.io/docs/api/python)
-         - [Java SDK](https://era.zksync.io/docs/api/java)
-         - [Go SDK](https://era.zksync.io/docs/api/go)
-         - [Swift SDK](https://docs.zksync.io/build/sdks/swift/getting-started.html)
-         - [Rust SDK](https://docs.zksync.io/build/sdks/rust/getting-started.html)
+        Before proceeding, please check this link for SDK help:
+         - [SDK Documentation](https://sdk.zksync.io/)
 
     - type: dropdown
     id: type
