@@ -14,6 +14,17 @@ body:
          - [In-Memory Node](https://docs.zksync.io/build/test-and-debug/in-memory-node)
 
   - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options:
+        - 
+        - Testnet
+        - Mainnet
+    validations:
+      required: true
+      
+  - type: dropdown
     id: devtool-type
     attributes:
       label: Select the Dev Tool you are using
@@ -28,17 +39,13 @@ body:
         - IDE
     validations:
       required: true
-      
-  - type: dropdown
-    id: environment
+
+  - type: textarea
+    id: version
     attributes:
-      label: Environment
-      options:
-        - 
-        - Testnet
-        - Mainnet
+      label: Provide the version of the tool (if applicable)
     validations:
-      required: true
+      required: false
       
   - type: textarea
     id: functionality-description
