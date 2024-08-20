@@ -7,9 +7,9 @@ body:
       label: Network
       options:
         - 
-        - zkSync Lite
-        - zkSync Era
-        - Both
+        - ZKsync Lite
+        - ZKsync Era
+        - ZK Stack
     validations:
       required: true
       

@@ -6,12 +6,8 @@ body:
       value: |
         ## Check the docs!
         Have you check these sections of the docs?
-        - [Differences from Ethereum](https://era.zksync.io/docs/dev/building-on-zksync/contracts/differences-with-ethereum.html)
-        - [Compiler Documentation](https://docs.zksync.io/zk-stack/components/compiler/toolchain/overview.html#ir-compilers)
-        - [Compiler zksolc](https://docs.zksync.io/zk-stack/components/compiler/toolchain/solidity.html)
-        - [Compiler zkvyper](https://docs.zksync.io/zk-stack/components/compiler/toolchain/vyper.html)
-        - [Configure hardhat-zksolc](https://docs.zksync.io/build/tooling/hardhat/hardhat-zksync-solc.html)
-        - [Configure hardhat-zkvyper](https://docs.zksync.io/build/tooling/hardhat/hardhat-zksync-vyper.html)
+        - [Compiler Documentation](https://docs.zksync.io/zk-stack/components/compiler/toolchain)
+
   - type: checkboxes
     attributes:
       label: Which compiler are you using?
@@ -36,9 +32,6 @@ body:
     id: issue
     attributes:
       label: Explain the issue
-      value: |
-        ...
-      render: bash
     validations:
       required: true
   - type: input

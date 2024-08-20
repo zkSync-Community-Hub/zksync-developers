@@ -6,9 +6,8 @@ body:
       value: |
         ## Check the docs!
         Before proceeding, please check these links for contract verification help:
-         - [Verifying contracts using the zkSync Era block explorer](https://era.zksync.io/docs/api/tools/block-explorer/contract-verification.html#verifying-contracts-using-the-zksync-era-block-explorer)
-         - [Verifying contracts using the hardhat-zksync-verify plugin](https://era.zksync.io/docs/api/hardhat/hardhat-zksync-verify.html)
-         - [Verifying contracts using the hardhat-zksync-verify-vyper plugin](https://docs.zksync.io/build/tooling/hardhat/hardhat-zksync-verify-vyper.html)
+         - [Verifying contracts using the hardhat-zksync-verify plugin](https://docs.zksync.io/build/tooling/hardhat/hardhat-zksync-verify)
+         - [Verifying contracts using the hardhat-zksync-verify-vyper plugin](https://docs.zksync.io/build/tooling/hardhat/hardhat-zksync-verify-vyper)
   - type: dropdown
     id: environment
     attributes:
