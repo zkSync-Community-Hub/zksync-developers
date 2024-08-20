@@ -1,19 +1,18 @@
 title: "[SDK] <Title>"
 labels: ["sdk"]
 body:
-    - type: markdown
+  - type: markdown
     attributes:
       value: |
         ## Check the docs!
         Before proceeding, please check this link for SDK help:
          - [SDK Documentation](https://sdk.zksync.io/)
 
-    - type: dropdown
+  - type: dropdown
     id: type
     attributes:
       label: Select the SDK
       options:
-        - 
         - JavaScript
         - Python
         - Java
@@ -28,7 +27,6 @@ body:
     attributes:
       label: Environment
       options:
-        - 
         - Testnet
         - Mainnet
     validations:
