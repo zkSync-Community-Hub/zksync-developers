@@ -20,6 +20,14 @@ body:
     validations:
       required: true
       
+  - type: input
+    id: block-number
+    attributes:
+      label: L2 block number
+      description: Provide the L2 block number if applicable to your issue.
+    validations:
+      required: false
+      
   - type: textarea
     id: functionality-description
     attributes:
