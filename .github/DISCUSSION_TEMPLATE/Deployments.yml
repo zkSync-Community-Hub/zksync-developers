@@ -8,7 +8,15 @@ body:
         Before proceeding, please check these links for contract verification help:
          - [Contract Deployment Differences from Ethereum](https://docs.zksync.io/build/developer-reference/ethereum-differences/contract-deployment)
          - [ZKsync 101 Tutorial](https://docs.zksync.io/build/start-coding/zksync-101)
- 
+
+  - type: input
+    id: team
+    attributes:
+      label: Team or Project
+      description: Enter your team or project name (optional)
+    validations:
+      required: false
+      
   - type: dropdown
     id: environment
     attributes:
