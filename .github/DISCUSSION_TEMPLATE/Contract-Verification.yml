@@ -8,6 +8,14 @@ body:
         Before proceeding, please check these links for contract verification help:
          - [Verifying contracts using the hardhat-zksync-verify plugin](https://docs.zksync.io/build/tooling/hardhat/hardhat-zksync-verify)
          - [Verifying contracts using the hardhat-zksync-verify-vyper plugin](https://docs.zksync.io/build/tooling/hardhat/hardhat-zksync-verify-vyper)
+  - type: input
+    id: team
+    attributes:
+      label: Team or Project
+      description: Enter your team or project name (optional)
+    validations:
+      required: false
+  
   - type: dropdown
     id: environment
     attributes:
