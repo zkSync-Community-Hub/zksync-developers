@@ -13,6 +13,14 @@ body:
          - [Local Node](https://docs.zksync.io/build/test-and-debug/dockerized-l1-l2-nodes)
          - [In-Memory Node](https://docs.zksync.io/build/test-and-debug/in-memory-node)
 
+  - type: input
+    id: team
+    attributes:
+      label: Team or Project
+      description: Enter your team or project name (optional)
+    validations:
+      required: false
+      
   - type: dropdown
     id: environment
     attributes:

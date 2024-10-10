@@ -1,6 +1,14 @@
 title: "[Feature Request] <Title>"
 labels: ["feature-request"]
 body:
+  - type: input
+    id: team
+    attributes:
+      label: Team or Project
+      description: Enter your team or project name (optional)
+    validations:
+      required: false
+      
   - type: dropdown
     id: environment
     attributes:

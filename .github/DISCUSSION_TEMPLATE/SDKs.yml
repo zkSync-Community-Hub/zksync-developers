@@ -8,6 +8,14 @@ body:
         Before proceeding, please check this link for SDK help:
          - [SDK Documentation](https://sdk.zksync.io/)
 
+  - type: input
+    id: team
+    attributes:
+      label: Team or Project
+      description: Enter your team or project name (optional)
+    validations:
+      required: false
+      
   - type: dropdown
     id: type
     attributes:

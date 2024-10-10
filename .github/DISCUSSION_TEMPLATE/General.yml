@@ -8,6 +8,14 @@ body:
         Before proceeding, please check this link for general help:
          - [Developer Reference](https://docs.zksync.io/build/developer-reference)
 
+  - type: input
+    id: team
+    attributes:
+      label: Team or Project
+      description: Enter your team or project name (optional)
+    validations:
+      required: false
+      
   - type: dropdown
     id: environment
     attributes:

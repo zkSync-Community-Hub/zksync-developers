@@ -8,6 +8,13 @@ body:
         Have you check these sections of the docs?
         - [Compiler Documentation](https://docs.zksync.io/zk-stack/components/compiler/toolchain)
 
+  - type: input
+    id: team
+    attributes:
+      label: Team or Project
+      description: Enter your team or project name (optional)
+    validations:
+      required: false
   - type: checkboxes
     attributes:
       label: Which compiler are you using?
