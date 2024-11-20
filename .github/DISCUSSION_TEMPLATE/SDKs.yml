@@ -28,6 +28,7 @@ body:
         - Go
         - Swift
         - Rust
+        - SSO
     validations:
       required: true
 
@@ -39,6 +40,8 @@ body:
         -
         - Testnet
         - Mainnet
+        - In-Memory Node
+        - Dockerized Node
     validations:
       required: true
         
