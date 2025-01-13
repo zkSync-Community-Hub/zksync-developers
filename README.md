@@ -1,5 +1,7 @@
 # ZKsync Developers
 
+![](./zksync-elastic-network.png)
+
 Welcome to the **ZKsync Developers Hub**! For questions related to development and building on ZKsync, please utilize the [**Discussions**](https://github.com/zkSync-Community-Hub/zksync-developers/discussions) tab.
 
 ## Documentation and tutorials
