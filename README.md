@@ -8,6 +8,7 @@ Welcome to the **ZKsync Developers Hub**! For questions related to development a
 
 - [Developer documentation](https://docs.zksync.io/build)
 - [ZK Stack documentation](https://docs.zksync.io/zk-stack)
+- [ZKsync protocol documentation](https://docs.zksync.io/zksync-protocol)
 - [ZKsync node documentation](https://docs.zksync.io/zksync-node)
 - [Tutorials from the community](https://code.zksync.io/)
 
