@@ -49,7 +49,7 @@ For in-depth technical details, check out our official documentation:
 
 Looking for **step-by-step guides** on building with ZKsync? Visit the **[Community Code site](https://code.zksync.io/)** for tutorials and code examples contributed by developers.  
 
-✍️ **Want to contribute?** Submit a tutorial via a **Pull Request** to the [Community Code repo](https://github.com/zkSync-Community-Hub/community-code) so the entire ZKsync community can benefit!   
+✍️ **Want to contribute?** Submit a tutorial via a **Pull Request** to the [Community Code repo](https://github.com/zksync-community-hub/community-code) so the entire ZKsync community can benefit!   
 
 ---
 
