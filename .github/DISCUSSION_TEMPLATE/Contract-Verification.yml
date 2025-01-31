@@ -16,6 +16,14 @@ body:
     validations:
       required: false
   
+  - type: input
+    id: chain
+    attributes:
+      label: ZK chain
+      description: Enter the network you are working on (e.g. Era, Abstract, etc.)
+    validations:
+      required: true
+
   - type: dropdown
     id: environment
     attributes:
@@ -33,8 +41,8 @@ body:
       label: Block Explorer
       options:
         - 
-        - https://explorer.zksync.io/
-        - https://era.zksync.network/
+        - ZKsync explorer (e.g. https://explorer.zksync.io)
+        - Etherscan (e.g. https://era.zksync.network)
     validations:
       required: true   
 
