@@ -31,12 +31,19 @@ body:
     validations:
       required: true
 
+  - type: input
+    id: chain
+    attributes:
+      label: ZK chain
+      description: Enter the network you are working on (e.g. Era, Abstract, etc.)
+    validations:
+      required: true
+
   - type: dropdown
     id: environment
     attributes:
       label: Environment
       options:
-        -
         - Testnet
         - Mainnet
     validations:
